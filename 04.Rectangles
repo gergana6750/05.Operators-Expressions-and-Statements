@@ -1,0 +1,15 @@
+using System;
+
+    class Rectangles
+    {
+        static void Main()
+        {
+            Console.WriteLine("Enter weight and height of rectangle: ");
+            double weight = double.Parse(Console.ReadLine());
+            double height = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Rectangle's perimeter is: {0}", 2*weight + 2*height);
+            Console.WriteLine("Rectangle's area is: {0}", weight*height);
+        }
+    }
+
