@@ -1,0 +1,15 @@
+using System;
+
+    class ExtractBitNumber3
+    {
+        static void Main()
+        {
+            Console.WriteLine("Please, enter an integer value: ");
+            int a = int.Parse(Console.ReadLine());
+            int pos = 3;
+            Console.WriteLine(1 & (a >> pos));
+
+
+         }
+    }
+
