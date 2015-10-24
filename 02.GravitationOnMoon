@@ -1,0 +1,11 @@
+using System;
+
+class GravitationOnTheMoon
+    {
+        static void Main()
+        {
+            Console.WriteLine("Please, eneter the weight of the person: ");
+            double weight = double.Parse(Console.ReadLine());
+            Console.WriteLine("The weight on the moon is: {0}", 17 * weight / 100);
+        }
+    }
